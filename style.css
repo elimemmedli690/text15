@@ -1,0 +1,17 @@
+.mill {
+  width: 150px;              
+  height: 150px;
+  border: 3px solid #ffffff;     
+  border-top-color: black; 
+  border-right-color: black;
+  border-bottom-color: black;
+  border-radius: 50%;         
+  animation: spin 1s linear infinite;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
