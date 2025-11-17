@@ -1,17 +1,43 @@
-.mill {
-  width: 150px;              
-  height: 150px;
-  border: 3px solid #ffffff;     
-  border-top-color: black; 
-  border-right-color: black;
-  border-bottom-color: black;
-  border-radius: 50%;         
-  animation: spin 1s linear infinite;
-  margin-left: 20px;
-  margin-top: 20px;
+.btn-round{
+  display: flex;
+  padding: 18px 36px;      
+  background: #d9d9d9;
+  color: #333;
+  border: none;   
+  cursor: pointer;
+  transition: border-radius 100ms ease, transform 100ms ease;
+  font-size: 18px;
+  margin-left: 25px;
+}
+.btn-round:hover{
+            border-radius: 20px;     
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.lonm {
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 12px 18px;
+    background: #ddd;
+    border: 1px solid #cfcfcf;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.lonm:hover {
+    transform: translateX(15px);
+}
+.hitt {
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 12px 18px;
+    background: #ddd;
+    border: 1px solid #cfcfcf;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.hitt:hover {
+    transform: translateX(-15px);
 }
